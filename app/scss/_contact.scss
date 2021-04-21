@@ -1,0 +1,94 @@
+.contact {
+  width: 67%;
+  background: rgba(35, 35, 35, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+
+.form-group {
+  width: 75%;
+
+  margin: 0 auto;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 5px;
+  font-size: 1.1rem;
+  color: #fff;
+  background-color: rgba(68, 68, 68, 0.05);
+  margin: 1rem 0;
+}
+
+.form-group label {
+  color: #fff;
+  margin-top: 1rem;
+}
+
+textarea {
+  resize: none;
+}
+
+button[type="submit"] {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 0.5rem;
+  font-size: 1.6rem;
+  color: #fff;
+  background-color: #69448e;
+  transition: 0.5s;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #64437d;
+  }
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+#status {
+  width: 67%;
+  text-align: center;
+  padding: 0.2rem;
+  margin: 0 auto;
+}
+
+#status.success {
+  background-color: #438e69;
+  color: #fff;
+  font-size: 1.6rem;
+  animation: status 4s ease forwards;
+}
+
+#status.error {
+  color: #fff;
+  background-color: #8e4343;
+  animation: status 4s ease forwards;
+}
+
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
