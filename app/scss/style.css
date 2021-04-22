@@ -133,6 +133,12 @@ a {
   display: none;
   cursor: pointer;
   color: #f0efef;
+  -webkit-transition: ease 0.25s;
+  transition: ease 0.25s;
+}
+
+.openMenu:hover {
+  color: #e936a7;
 }
 
 nav .nav__list .closeMenu,
@@ -188,9 +194,14 @@ nav .nav__list .closeMenu,
     top: 20px;
     right: 20px;
     color: #f0efef;
+    -webkit-transition: ease 0.25s;
+    transition: ease 0.25s;
   }
   nav .openMenu {
     display: block;
+  }
+  nav .closeMenu:hover {
+    color: #e936a7;
   }
   .icons i {
     display: inline-block;
