@@ -1,6 +1,29 @@
 {
+  "name": "tommy-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
-    "gsap": "^3.6.1"
-  }
+    "gsap": "^3.6.1",
+    "node-sass": "^5.0.0",
+    "sass": "^1.32.11"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carsonep/Photography-Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carsonep/Photography-Portfolio/issues"
+  },
+  "homepage": "https://github.com/carsonep/Photography-Portfolio#readme"
 }
